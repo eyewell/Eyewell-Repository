@@ -7,5 +7,5 @@ test:
   database: demo_tst.db
 
 production:
-  adapter: sqlite3
+  adapter: pg
   database: demo_prd.db
