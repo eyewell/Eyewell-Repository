@@ -26,11 +26,11 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
 group :production do
-	gem 'pg'
+	gem 'pg', '0.12.2'
 end
 
 group :development, :test do 
 #if RbConfig::CONFIG['host_os'] =~ /darwin/ && false	
 # gem 'webrat'
-gem 'sqlite3'
+gem 'sqlite3', '1.3.4'
 end
